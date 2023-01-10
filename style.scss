@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(32, 32, 32);
+    .mainContainer{
+        display: flex;
+        align-items: center;
+        header{ 
+            background-repeat: no-repeat;
+        }
+    }
+}
