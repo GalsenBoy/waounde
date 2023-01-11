@@ -14,8 +14,8 @@ body .mainContainer header .navContainer {
   align-items: center;
 }
 body .mainContainer header .navContainer .logo {
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
 }
 body .mainContainer header .navContainer .logo img {
   width: 100%;
@@ -23,6 +23,7 @@ body .mainContainer header .navContainer .logo img {
   border-radius: 50%;
 }
 body .mainContainer header .navContainer .menu {
+  list-style: none;
   position: relative;
   display: flex;
   width: 300px;
@@ -33,15 +34,43 @@ body .mainContainer header .navContainer .menu .headList:hover .subList {
 }
 body .mainContainer header .navContainer .menu .headList a {
   color: black;
+  text-decoration: none;
 }
 body .mainContainer header .navContainer .menu .headList .subList {
-  display: none;
+  list-style: none;
   position: absolute;
   border: 1px solid blue;
-  width: 80px;
-  height: 100px;
+  width: 220px;
+  height: 220px;
+  border-radius: 8px;
+  background-color: rgb(197, 192, 192);
+}
+body .mainContainer header .navContainer .menu .headList .subList li {
+  display: flex;
+  align-items: center;
+  padding: 12px 0px;
 }
 body .mainContainer header .navContainer .menu .headList .subList li a {
   color: black;
-  padding-left: 7px;
+  padding-left: 10px;
+  font-size: large;
+}
+body .mainContainer header .navContainer .menu .headList .subList li i {
+  font-size: 2rem;
+  margin-left: 3px;
+}
+body .mainContainer header .navContainer .menu .headList .subList li .bi-person-circle {
+  color: rgb(32, 32, 32);
+}
+body .mainContainer header .navContainer .menu .headList .subList li .bi-heart-fill {
+  color: red;
+}
+body .mainContainer header .navContainer .menu .headList .subList li .bi-link {
+  color: rgb(53, 53, 241);
+}
+body .mainContainer header .navContainer .menu .headList .subList li .bi-cash-coin {
+  color: rgb(6, 135, 6);
+}
+body .mainContainer header .navContainer .menu .headList .subList li .bi-telephone-fill {
+  color: #3F73B2;
 }/*# sourceMappingURL=style.css.map */
