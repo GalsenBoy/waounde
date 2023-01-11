@@ -12,6 +12,8 @@ body .mainContainer header .navContainer {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-color: rgb(209, 209, 209);
+  padding-bottom: 1rem;
 }
 body .mainContainer header .navContainer .logo {
   width: 70px;
@@ -35,11 +37,12 @@ body .mainContainer header .navContainer .menu .headList:hover .subList {
 body .mainContainer header .navContainer .menu .headList a {
   color: black;
   text-decoration: none;
+  font-size: 1.3rem;
 }
 body .mainContainer header .navContainer .menu .headList .subList {
+  display: none;
   list-style: none;
   position: absolute;
-  border: 1px solid blue;
   width: 220px;
   height: 220px;
   border-radius: 8px;
@@ -65,7 +68,7 @@ body .mainContainer header .navContainer .menu .headList .subList li .bi-person-
 body .mainContainer header .navContainer .menu .headList .subList li .bi-heart-fill {
   color: red;
 }
-body .mainContainer header .navContainer .menu .headList .subList li .bi-link {
+body .mainContainer header .navContainer .menu .headList .subList li .bi-link-45deg {
   color: rgb(53, 53, 241);
 }
 body .mainContainer header .navContainer .menu .headList .subList li .bi-cash-coin {
@@ -73,4 +76,28 @@ body .mainContainer header .navContainer .menu .headList .subList li .bi-cash-co
 }
 body .mainContainer header .navContainer .menu .headList .subList li .bi-telephone-fill {
   color: #3F73B2;
+}
+body .mainContainer main .mainContainer {
+  margin-top: 2rem;
+  padding: 0 80px;
+}
+body .mainContainer main .mainContainer h1 {
+  font-size: 2.2rem;
+}
+body .mainContainer main .mainContainer .presentation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body .mainContainer main .mainContainer .presentation .formation {
+  width: 40%;
+}
+body .mainContainer main .mainContainer .presentation .formation img {
+  width: 100%;
+}
+body .mainContainer main .mainContainer .presentation .textPresentation {
+  width: 40%;
+}
+body .mainContainer main .mainContainer .presentation .textPresentation h2 {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
