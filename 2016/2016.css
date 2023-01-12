@@ -1,0 +1,20 @@
+body {
+  background-color: rgb(223, 222, 222);
+}
+body section h3 {
+  font-size: 1.7rem;
+  text-align: center;
+  text-decoration: underline;
+}
+body section .health {
+  margin-top: 2.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body section .health .img1, body section .health .img2 {
+  width: 40%;
+}
+body section .health .img1 img, body section .health .img2 img {
+  width: 100%;
+}/*# sourceMappingURL=2016.css.map */
