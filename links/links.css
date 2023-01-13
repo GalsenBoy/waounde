@@ -1,0 +1,16 @@
+section {
+  padding: 0 60px;
+}
+section h3 {
+  font-size: 2rem;
+  text-align: center;
+  text-decoration: underline;
+}
+section .list-group-flush {
+  border: 1px double rgb(32, 32, 32);
+  border-radius: 10px;
+  margin: 2rem;
+}
+section p {
+  font-size: large;
+}/*# sourceMappingURL=links.css.map */
