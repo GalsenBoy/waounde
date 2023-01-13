@@ -1,0 +1,13 @@
+body {
+    section {
+        margin-top: 2rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .card {
+            background-color: rgb(161, 153, 153);
+            border-radius: 17px;
+        }
+    }
+}

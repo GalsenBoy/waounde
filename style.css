@@ -108,6 +108,76 @@ body .mainContainer main .mainContainer .presentation .textPresentation p {
   width: 100%;
   font-size: 1.6rem;
 }
+body .mainContainer main .mainContainer #waounde {
+  padding: 0 60px;
+  margin-top: 5rem;
+}
+body .mainContainer main .mainContainer #waounde h3 {
+  text-decoration: underline;
+}
+body .mainContainer main .mainContainer #waounde p {
+  font-size: large;
+}
+body .mainContainer main .mainContainer #waounde #village {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body .mainContainer main .mainContainer #waounde #village #map p,
+body .mainContainer main .mainContainer #waounde #village #earth p {
+  text-align: center;
+}
+body .mainContainer main .mainContainer #über {
+  padding: 0 60px;
+  margin-top: 5rem;
+}
+body .mainContainer main .mainContainer #über h3 {
+  text-decoration: underline;
+}
+body .mainContainer main .mainContainer #über p {
+  font-size: large;
+}
+body .mainContainer main .mainContainer #über #school {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body .mainContainer main .mainContainer #über #school #kid,
+body .mainContainer main .mainContainer #über #school #beru {
+  width: 40%;
+}
+body .mainContainer main .mainContainer #über #school #kid img,
+body .mainContainer main .mainContainer #über #school #beru img {
+  width: 100%;
+}
+body .mainContainer main .mainContainer #spenden {
+  padding: 0 60px;
+}
+body .mainContainer main .mainContainer #spenden h3 {
+  text-decoration: underline;
+}
+body .mainContainer footer {
+  background-color: rgb(209, 209, 209);
+  margin-top: 5rem;
+}
+body .mainContainer footer .footerContainer h3 {
+  padding: 16px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+body .mainContainer footer .footerContainer #sectionFooter {
+  display: flex;
+  justify-content: space-around;
+}
+body .mainContainer footer .footerContainer #sectionFooter .postal {
+  width: 20%;
+}
+body .mainContainer footer .footerContainer #sectionFooter .register {
+  width: 30%;
+}
+body .mainContainer footer .footerContainer #sectionFooter .copyright {
+  width: 40%;
+}
 
 /*roadmap*/
 .roadmap {
