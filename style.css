@@ -68,7 +68,6 @@ body .mainContainer header .navContainer .menu .headList .subList li {
   display: flex;
   align-items: center;
   padding: 12px 0px;
-  border: 1px solid greenyellow;
 }
 body .mainContainer header .navContainer .menu .headList .subList li a {
   color: black;
