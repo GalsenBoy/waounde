@@ -12,6 +12,7 @@ body {
   h1,
   h2 {
     color: #D99E32;
+    font-family: 'Anek Telugu', sans-serif;
   }
 
   h3,
@@ -19,6 +20,7 @@ body {
   h5,
   h6 {
     color: #527343;
+    font-family: 'Merienda', sans-serif;
   }
 
   a {
@@ -68,19 +70,18 @@ body {
               display: none;
               list-style: none;
               position: absolute;
-              // border: 1px solid blue;
               width: 220px;
               height: 220px;
               border-radius: 8px;
-              background-color: rgb(197, 192, 192);
+              background-color: #D9C6B0;
 
               li {
                 display: flex;
                 align-items: center;
                 padding: 12px 0px;
-
                 // text-align: center;
-                // border: 1px solid greenyellow;
+                border: 1px solid greenyellow;
+
                 a {
                   color: black;
                   padding-left: 10px;
@@ -231,9 +232,18 @@ body {
 
       .footerContainer {
         h3 {
+          color: #ccc;
           padding: 16px;
           text-align: center;
           margin-bottom: 2rem;
+        }
+
+        h4 {
+          color: rgb(172, 172, 172);
+        }
+
+        p {
+          color: #fff;
         }
 
         #sectionFooter {

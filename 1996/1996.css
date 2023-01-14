@@ -2,14 +2,7 @@
 .health {
   flex-wrap: wrap;
 }
-.health h1,
-.health h2 {
-  color: #D99E32;
-}
-.health h3,
-.health h4,
-.health h5,
-.health h6 {
+.health h3 {
   color: #527343;
 }
 .health a {

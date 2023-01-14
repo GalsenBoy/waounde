@@ -1,15 +1,9 @@
 body {
   background-color: rgb(223, 222, 222);
 }
-body h1,
-body h2 {
-  color: #D99E32;
-}
-body h3,
-body h4,
-body h5,
-body h6 {
+body h3 {
   color: #527343;
+  font-family: "Merienda", sans-serif;
 }
 body a {
   color: #D92B4B;

@@ -11,12 +11,14 @@ body {
 body h1,
 body h2 {
   color: #D99E32;
+  font-family: "Anek Telugu", sans-serif;
 }
 body h3,
 body h4,
 body h5,
 body h6 {
   color: #527343;
+  font-family: "Merienda", sans-serif;
 }
 body a {
   color: #D92B4B;
@@ -60,12 +62,13 @@ body .mainContainer header .navContainer .menu .headList .subList {
   width: 220px;
   height: 220px;
   border-radius: 8px;
-  background-color: rgb(197, 192, 192);
+  background-color: #D9C6B0;
 }
 body .mainContainer header .navContainer .menu .headList .subList li {
   display: flex;
   align-items: center;
   padding: 12px 0px;
+  border: 1px solid greenyellow;
 }
 body .mainContainer header .navContainer .menu .headList .subList li a {
   color: black;
@@ -174,9 +177,16 @@ body .mainContainer footer {
   margin-top: 5rem;
 }
 body .mainContainer footer .footerContainer h3 {
+  color: #ccc;
   padding: 16px;
   text-align: center;
   margin-bottom: 2rem;
+}
+body .mainContainer footer .footerContainer h4 {
+  color: rgb(172, 172, 172);
+}
+body .mainContainer footer .footerContainer p {
+  color: #fff;
 }
 body .mainContainer footer .footerContainer #sectionFooter {
   display: flex;

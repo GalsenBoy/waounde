@@ -4,15 +4,9 @@ body section {
   justify-content: space-around;
   align-items: center;
 }
-body section h1,
-body section h2 {
-  color: #D99E32;
-}
-body section h3,
-body section h4,
-body section h5,
-body section h6 {
+body section h4 {
   color: #527343;
+  font-family: "Merienda", sans-serif;
 }
 body section a {
   color: #D92B4B;
