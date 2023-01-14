@@ -1,6 +1,19 @@
 body {
   background-color: rgb(223, 222, 222);
 }
+body h1,
+body h2 {
+  color: #D99E32;
+}
+body h3,
+body h4,
+body h5,
+body h6 {
+  color: #527343;
+}
+body a {
+  color: #D92B4B;
+}
 body section h3 {
   font-size: 1.7rem;
   text-align: center;
@@ -12,9 +25,11 @@ body section .health {
   justify-content: space-around;
   align-items: center;
 }
-body section .health .img1, body section .health .img2 {
+body section .health .img1,
+body section .health .img2 {
   width: 40%;
 }
-body section .health .img1 img, body section .health .img2 img {
+body section .health .img1 img,
+body section .health .img2 img {
   width: 100%;
 }/*# sourceMappingURL=2016.css.map */

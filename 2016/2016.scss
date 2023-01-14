@@ -1,22 +1,44 @@
-body{
-    background-color: rgb(223, 222, 222);
-   section{
-    h3{
-        font-size: 1.7rem;
-        text-align: center;
-        text-decoration: underline;
+body {
+
+    h1,
+    h2 {
+        color: #D99E32;
     }
-    .health{
-        margin-top: 2.5rem;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        .img1,.img2{
-            width: 40%;
-            img{
-                width: 100%;
+
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: #527343;
+    }
+
+    a {
+        color: #D92B4B;
+    }
+
+    background-color: rgb(223, 222, 222);
+
+    section {
+        h3 {
+            font-size: 1.7rem;
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        .health {
+            margin-top: 2.5rem;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            .img1,
+            .img2 {
+                width: 40%;
+
+                img {
+                    width: 100%;
+                }
             }
         }
     }
-   }
 }

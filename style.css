@@ -8,12 +8,25 @@
 body {
   background-color: gray;
 }
+body h1,
+body h2 {
+  color: #D99E32;
+}
+body h3,
+body h4,
+body h5,
+body h6 {
+  color: #527343;
+}
+body a {
+  color: #D92B4B;
+}
 body .mainContainer header .navContainer {
   padding-top: 10px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: rgb(209, 209, 209);
+  background-color: #D9C6B0;
   padding-bottom: 1rem;
 }
 body .mainContainer header .navContainer .logo {
@@ -157,7 +170,7 @@ body .mainContainer main .mainContainer #spenden h3 {
   text-decoration: underline;
 }
 body .mainContainer footer {
-  background-color: rgb(209, 209, 209);
+  background-color: #A68A72;
   margin-top: 5rem;
 }
 body .mainContainer footer .footerContainer h3 {

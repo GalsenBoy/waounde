@@ -1,6 +1,19 @@
 body {
   background-color: rgb(223, 222, 222);
 }
+body section h1,
+body section h2 {
+  color: #D99E32;
+}
+body section h3,
+body section h4,
+body section h5,
+body section h6 {
+  color: #527343;
+}
+body section a {
+  color: #D92B4B;
+}
 body section h3 {
   font-size: 1.7rem;
   text-align: center;

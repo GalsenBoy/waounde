@@ -1,6 +1,19 @@
 section {
   padding: 0 60px;
 }
+section h1,
+section h2 {
+  color: #D99E32;
+}
+section h3,
+section h4,
+section h5,
+section h6 {
+  color: #527343;
+}
+section a {
+  color: #D92B4B;
+}
 section h3 {
   font-size: 2rem;
   text-align: center;

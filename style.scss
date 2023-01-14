@@ -4,8 +4,26 @@
   box-sizing: border-box;
 }
 
+
+
 body {
   background-color: gray;
+
+  h1,
+  h2 {
+    color: #D99E32;
+  }
+
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #527343;
+  }
+
+  a {
+    color: #D92B4B;
+  }
 
   .mainContainer {
     header {
@@ -14,7 +32,7 @@ body {
         display: flex;
         justify-content: space-around;
         align-items: center;
-        background-color: rgb(209, 209, 209);
+        background-color: #D9C6B0;
         padding-bottom: 1rem;
 
         .logo {
@@ -208,7 +226,7 @@ body {
     }
 
     footer {
-      background-color: rgb(209, 209, 209);
+      background-color: #A68A72;
       margin-top: 5rem;
 
       .footerContainer {
