@@ -1,4 +1,5 @@
 body section {
+  padding: 0 9rem;
   margin-top: 2rem;
   display: flex;
   justify-content: space-around;
@@ -12,6 +13,6 @@ body section a {
   color: #D92B4B;
 }
 body section .card {
-  background-color: rgb(161, 153, 153);
+  background-color: #CCCCCC;
   border-radius: 17px;
 }/*# sourceMappingURL=kontakt.css.map */

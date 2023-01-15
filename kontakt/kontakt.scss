@@ -1,5 +1,7 @@
 body {
     section {
+        padding: 0 9rem;
+
         h4 {
             color: #527343;
             font-family: 'Merienda', sans-serif;
@@ -15,7 +17,7 @@ body {
         align-items: center;
 
         .card {
-            background-color: rgb(161, 153, 153);
+            background-color: #CCCCCC;
             border-radius: 17px;
         }
     }
