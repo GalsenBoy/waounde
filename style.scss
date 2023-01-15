@@ -27,6 +27,7 @@ h6 {
   line-height: 1.5;
   word-break: break-all;
 }
+
 a {
   color: #d92b4b;
   text-decoration: none;
@@ -114,7 +115,7 @@ body {
         min-width: 220px;
         position: static;
 
-        .menu-dropdown-trigger[aria-controls]:hover + .menu-dropdown-menu,
+        .menu-dropdown-trigger[aria-controls]:hover+.menu-dropdown-menu,
         .menu-dropdown-menu:hover {
           display: flex;
         }
@@ -178,7 +179,7 @@ body {
             }
 
             .bi-heart-fill {
-              color: red;
+              color: crimson;
             }
 
             .bi-link-45deg {
@@ -603,6 +604,7 @@ $txt-size: 1.28em;
 @media (max-width: 992px) {
   .roadmap {
     &-wrapper {
+
       &:before,
       &:after {
         display: none;
