@@ -1,5 +1,3 @@
-@import "node_modules/bootstrap-icons/font/bootstrap-icons.css";
-// Import all of Bootstrap's CSS
 @import "node_modules/bootstrap/scss/bootstrap";
 
 * {
@@ -74,22 +72,15 @@ body {
 
   header {
     .navContainer {
-      // padding-top: 10px;
-      // display: flex;
-      // justify-content: space-around;
-      // align-items: center;
       background-color: #d9c6b0;
-      // padding-bottom: 1rem;
-
-      /* This is a joke box, have fun ! */
       display: flex;
       align-items: center;
-      justify-content: space-between;
-      padding: 1rem 9rem;
+      justify-content: center;
+      padding: 1rem 0;
 
       .logo {
-        width: 70px;
-        height: 70px;
+        width: 80px;
+        height: 80px;
 
         img {
           width: 100%;
@@ -97,254 +88,89 @@ body {
           border-radius: 50%;
         }
       }
-
-      .menu {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        align-items: flex-start;
-        height: 100%;
-      }
-
-      .menu-dropdown {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        margin: 0;
-        padding: 0;
-        min-width: 220px;
-        position: static;
-
-        .menu-dropdown-trigger[aria-controls]:hover+.menu-dropdown-menu,
-        .menu-dropdown-menu:hover {
-          display: flex;
-        }
-
-        .menu-dropdown-trigger {
-          width: 100%;
-
-          a {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-            padding: 1rem 2rem;
-            margin: 0;
-            font-size: 1.5rem;
-            text-align: center;
-            transition: background-color;
-            transition-duration: 250ms;
-            transition-timing-function: linear;
-            width: 100%;
-
-            i {
-              margin-right: 0.5rem;
-            }
-          }
-        }
-
-        .menu-dropdown-menu {
-          display: none;
-          flex-direction: column;
-          flex-wrap: wrap;
-          position: relative;
-          width: 100%;
-        }
-
-        .menu-dropdown-content {
-          background-color: #d9c6b0;
-          position: absolute;
-          width: 100%;
-
-          .menu-dropdown-link {
-            display: block;
-            color: black;
-            font-size: 1.5rem;
-            padding: 1rem 2rem;
-            text-decoration: none;
-            width: 100%;
-
-            &:hover {
-              background-color: rgba($color: #fff, $alpha: 0.3);
-            }
-
-            i {
-              font-size: 1.5rem;
-              margin-right: 0.5rem;
-            }
-
-            .bi-person-circle {
-              color: rgb(32, 32, 32);
-            }
-
-            .bi-heart-fill {
-              color: crimson;
-            }
-
-            .bi-link-45deg {
-              color: rgb(53, 53, 241);
-            }
-
-            .bi-cash-coin {
-              color: rgb(6, 135, 6);
-            }
-
-            .bi-telephone-fill {
-              color: rgb(44, 123, 44);
-            }
-          }
-        }
-      }
     }
   }
+}
 
-  main {
-    .mainContainer {
-      margin-top: 4rem;
-      display: flex;
-      flex-direction: column;
-      padding: 1rem 9rem;
 
-      // h1 {
-      //   font-size: 2.2rem;
-      // }
 
-      .presentation {
+main {
+  .mainContainer {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 9rem;
+
+    .presentation {
+      margin-top: 3rem;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    #waounde {
+      .content {
         margin-top: 3rem;
-        // display: flex;
+      }
+
+      #village {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        grid-row: 2 / span 6;
+      }
+    }
+
+    #über {
+      padding: 0 60px;
+      margin-top: 5rem;
+
+      h3 {
+        text-decoration: underline;
+      }
+
+      p {
+        font-size: large;
+      }
+
+      #school {
+        display: flex;
         justify-content: space-around;
         align-items: center;
 
-        // .formation {
-        //   // width: 40%;
+        #kid,
+        #beru {
+          width: 40%;
 
-        //   p {
-        //     text-align: center;
-        //     font-size: large;
-        //     // text-decoration: underline;
-        //   }
-
-        //   img {
-        //     width: 100%;
-        //   }
-        // }
-
-        // .textPresentation {
-        //   width: 40%;
-
-        //   p {
-        //     width: 100%;
-        //     font-size: 1.6rem;
-        //   }
-        // }
-      }
-
-      #waounde {
-        // padding: 0 60px;
-        // margin-top: 5rem;
-
-        .content {
-          margin-top: 3rem;
-        }
-
-        // h3 {
-        //   text-decoration: underline;
-        // }
-
-        // p {
-        //   font-size: large;
-        // }
-
-        #village {
-          display: flex;
-          justify-content: space-around;
-          align-items: center;
-          grid-row: 2 / span 6;
-
-          // #map,
-          // #earth {
-          //   p {
-          //     text-align: center;
-          //   }
-          // }
-        }
-      }
-
-      #über {
-        padding: 0 60px;
-        margin-top: 5rem;
-
-        h3 {
-          text-decoration: underline;
-        }
-
-        p {
-          font-size: large;
-        }
-
-        #school {
-          display: flex;
-          justify-content: space-around;
-          align-items: center;
-
-          #kid,
-          #beru {
-            width: 40%;
-
-            img {
-              width: 100%;
-            }
+          img {
+            width: 100%;
           }
         }
       }
+    }
 
-      #spenden {
-        padding: 0 60px;
+    #spenden {
+      padding: 0 60px;
 
-        h3 {
-          text-decoration: underline;
-        }
+      h3 {
+        text-decoration: underline;
       }
     }
   }
+}
 
-  footer {
-    background-color: #a68a72;
-    // margin-top: 5rem;
-    color: #fff;
+footer {
+  background-color: #a68a72;
+  color: #fff;
 
-    h3 {
-      color: #ccc;
-      // padding: 16px;
-      // text-align: center;
-      // margin-bottom: 2rem;
-    }
+  h3 {
+    color: #ccc;
+  }
 
-    h4 {
-      color: #ccc;
-    }
-
-    // p {
-    // }
-
-    // #sectionFooter {
-    //   display: flex;
-    //   justify-content: space-around;
-
-    //   .postal {
-    //     width: 20%;
-    //   }
-
-    //   .register {
-    //     width: 30%;
-    //   }
-
-    //   .copyright {
-    //     width: 40%;
-    //   }
-    // }
+  h4 {
+    color: #ccc;
   }
 }
+
 
 footer {
   background-color: #a68a72;
@@ -495,7 +321,6 @@ $txt-size: 1.28em;
         width: 30px;
         height: 100%;
         left: 0;
-        //background: url(../images/roadmap-list-point.png) no-repeat left 11px;
         z-index: 200;
       }
     }
