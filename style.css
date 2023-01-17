@@ -10940,6 +10940,12 @@ textarea.form-control-lg {
   line-height: 24px;
 }
 
+.cfp a {
+  color: #D92B4B;
+  font-size: large;
+  text-decoration: underline;
+}
+
 h1, .h1,
 h2,
 .h2 {
@@ -11112,7 +11118,6 @@ footer {
 }
 .roadmap-item.executed li {
   background: linear-gradient(45deg, #00c280 23%, #01a094 33%, #0434da);
-  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .roadmap-list {
