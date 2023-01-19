@@ -11027,6 +11027,9 @@ body header .navContainer .logo img {
   border-radius: 50%;
 }
 
+main {
+  position: static;
+}
 main .mainContainer {
   margin-top: 4rem;
   display: flex;
